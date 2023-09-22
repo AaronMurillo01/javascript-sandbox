@@ -23,5 +23,4 @@
 
 // const styles = 'padding: 10px; background-color: white; color: green';
 
-// console.log('%cHello World', styles);
-
+// console.log('%cHello World',)
