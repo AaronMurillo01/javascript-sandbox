@@ -1,26 +1,27 @@
-console.log(100);
+// console.log(100);
 
-console.log('Hello World');
+// console.log('Hello World');
 
-console.log(20, 'Hello', true);
+// console.log(20, 'Hello', true);
 
 
-const x = 100;
+// const x = 100;
 
-console.log(x);
+// console.log(x);
 
-console.error('Alert');
+// console.error('Alert');
 
-console.log('Warning');
+// console.log('Warning');
 
-console.table({name: 'Brad', email: 'murilloaaron01@gmail.com' });
+// console.table({name: 'Brad', email: 'murilloaaron01@gmail.com' });
 
-console.log('simple');
-console.log(x);
-console.error('Alert');
-console.warn('Warning');
-console.groupEnd();
+// console.log('simple');
+// console.log(x);
+// console.error('Alert');
+// console.warn('Warning');
+// console.groupEnd();
 
-const styles = 'padding: 10px; background-color: white; color: green';
+// const styles = 'padding: 10px; background-color: white; color: green';
 
-console.log('%cHello World', styles);
+// console.log('%cHello World', styles);
+
