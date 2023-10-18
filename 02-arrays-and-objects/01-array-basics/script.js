@@ -18,7 +18,7 @@ fruits[2] = 'pear';
 
 // fruits.length = 2;
 
-fruits[3] = 'strawberry';
+// fruits[3] = 'strawberry';
 
 fruits[fruits.length] = 'blueberry';
 fruits[fruits.length] = 'peach';
