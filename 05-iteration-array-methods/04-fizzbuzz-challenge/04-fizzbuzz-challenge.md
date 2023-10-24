@@ -16,19 +16,7 @@ If you have taken the course up to this point, then you know how to write a loop
 
 ### Solution 1: `For` Loop
 
-```JavaScript
-  for (let i = 1; i <= 100; i++) {
-    if (i % 15 == 0) {
-    	console.log("FizzBuzz");
-    } else if (i % 3 == 0) {
-    	console.log("Fizz");
-    } else if (i % 5 == 0) {
-    	console.log("Buzz");
-    } else {
-    	console.log(i);
-    }
-}
-```
+
 
 In the above code, we set out initialize expression to `1`. We set the condition to `i <= 100`. We set out increment expression to `i++`.
 
@@ -36,22 +24,7 @@ We first checked if `i` was divisible by **15**. Because this means `i` is divis
 
 ### Solution 2: `While` Loop
 
-```JavaScript
-  let i = 1;
 
-  while(i <= 100) {
-    if (i % 15 == 0) {
-    	console.log("FizzBuzz");
-    } else if (i % 3 == 0) {
-    	console.log("Fizz");
-    } else if (i % 5 == 0) {
-    	console.log("Buzz");
-    } else {
-    	console.log(i);
-    }
-
-    i++;
-  }
 ```
 
 We did the same thing here, just with a `while` loop
