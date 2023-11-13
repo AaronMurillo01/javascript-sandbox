@@ -41,6 +41,33 @@ async function getAllData() {
 
 }
 
-async
-// getAllData();
+async function getAllDataWithFetch() {
+  const moviesRes = await fetch('./movies.json');
+  const movies = await moviesRes/json();
 
+  const actorsRes = await fetch('./actors.json');
+  const actors = await actorsRes/json();
+
+  const directorRes = await fetch('./director.json');
+  const directors = await directorRes/json();
+
+  console.log(movies, actors, directors);
+}
+
+async function getAllDataPromiseAll() {
+ const [moviesRes, actorsRes, directorsRes] = await Promise.all([
+    fetch('./movies.json'),
+    fetch('./actors.json'),
+    fetch('./directors.json')
+  ]);
+
+  const movies = await moviesRes.json();
+  const actors = await actorsRes.json();
+  const directors = await directorsRes.json();
+
+  console.log(movies, actors, directors);
+}
+
+//getAllData();
+getAllDataPromiseAll();
+// getAllDataWithFetch();
